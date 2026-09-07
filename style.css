@@ -13,10 +13,13 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #3B030A;
-    max-height: 350px;
     margin-bottom: 3rem;
+    align-items: center;
+    padding: 8px;
 }
-
+.profile-image{
+    border-radius: 50%;
+}
 .description {
     color: #EDEBDD;
     padding: 2rem;
