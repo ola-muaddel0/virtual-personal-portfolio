@@ -1,0 +1,159 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EDEBDD;
+    font-family: "Vazirmatn", sans-serif;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3B030A;
+    max-height: 350px;
+    margin-bottom: 3rem;
+}
+
+.description {
+    color: #EDEBDD;
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 3.5rem;
+    border-bottom: 2px solid #880808;
+}
+
+.skills-section {
+    margin-bottom: 3.5rem;
+}
+
+.skills-group {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    flex-wrap: wrap;
+
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: #3B030A;
+    padding: 0.5rem;
+
+}
+
+.skill p {
+    font-size: 1.2rem;
+    font-family: Georgia;
+
+}
+
+.projects-group {
+    background-color: #3B030A;
+    padding: 1.5rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+}
+
+button {
+    background-color: rgb(83, 28, 28);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    color: #EDEBDD;
+    cursor: pointer;
+    min-width: 100px;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+.project {
+    background-color: #EDEBDD;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1.5rem;
+
+}
+
+.image {
+    border-radius: 16px;
+}
+
+.project-name {
+    margin-top: 0.5rem;
+}
+
+.contact-container {
+    display: flex;
+    padding: 1.5rem 3rem;
+    color: #EDEBDD;
+}
+
+.contact-container p {
+    background-color: #3B030A;
+    border-radius: 8px;
+    padding: 1.5rem 3rem;
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    background-color: #6b1010;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #EDEBDD;
+}
+
+
+
+
+/*----------------*/
+/* notes for me */
+/* fake classes and selectors*/
+
+.colors {
+    color: #A30000;
+    color: #880808;
+    color: #3B030A;
+    color: #4E0000;
+}
+
+/*the image is  from  unsplash*/
+/*icons : https://icons8.com/icons/set/react-js*/
